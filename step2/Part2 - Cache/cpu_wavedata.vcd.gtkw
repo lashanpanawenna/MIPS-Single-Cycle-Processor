@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Fri Jun 28 09:23:53 2024
+[*]
+[dumpfile] "C:\Users\USER\Desktop\Semester_4\CO224 - Computer_Architecture\Labs\Lab6\Part2 - Cache\cpu_wavedata.vcd"
+[dumpfile_mtime] "Fri Jun 28 07:19:40 2024"
+[dumpfile_size] 67376
+[savefile] "C:\Users\USER\Desktop\Semester_4\CO224 - Computer_Architecture\Labs\Lab6\Part2 - Cache\cpu_wavedata.vcd.gtkw"
+[timestart] 190410
+[size] 1536 793
+[pos] -1 -1
+*-13.000000 199010 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[sst_width] 211
+[signals_width] 243
+[sst_expanded] 1
+[sst_vpaned_height] 222
+@28
+cpu_tb.mycache2.clock
+cpu_tb.mycpu.INSTRUCTION[31:0]
+@22
+cpu_tb.mycache2.cpu_address[7:0]
+cpu_tb.mycache2.cpu_readData[7:0]
+cpu_tb.mycache2.cpu_writeData[7:0]
+@28
+cpu_tb.mycache2.read
+cpu_tb.mycache2.write
+cpu_tb.mycpu.BUSYWAIT
+cpu_tb.mycache2.hit
+@200
+-
+-analysys
+@28
+cpu_tb.mycache2.hit
+cpu_tb.mycache2.offset[1:0]
+cpu_tb.mycache2.state[2:0]
+cpu_tb.mycache2.cache_tag[2:0]
+cpu_tb.mycache2.index[2:0]
+cpu_tb.mycache2.tag[2:0]
+cpu_tb.mycache2.taghit
+@29
+cpu_tb.mycache2.writehit
+@28
+cpu_tb.mycache2.dirty
+@200
+-
+-memmory
+@22
+mymemory.address[5:0]
+@28
+mymemory.busywait
+mymemory.read
+mymemory.write
+mymemory.writeaccess
+@22
+mymemory.writedata[31:0]
+@28
+mymemory.readaccess
+@22
+mymemory.readdata[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

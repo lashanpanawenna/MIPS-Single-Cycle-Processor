@@ -1,0 +1,65 @@
+$date
+	Wed Oct 23 18:47:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 ! \registers[0] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 " \registers[1] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 # \registers[2] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 $ \registers[3] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 % \registers[4] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 & \registers[5] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 ' \registers[6] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module cpu $end
+$scope module REGITSERS $end
+$var reg 8 ( \registers[7] [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#5

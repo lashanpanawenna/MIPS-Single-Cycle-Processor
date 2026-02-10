@@ -1,0 +1,57 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Jun 05 16:48:06 2024
+[*]
+[dumpfile] "C:\Users\USER\Desktop\Semester_4\CO224 - Computer_Architecture\Labs\Lab6\Part1 - Data_Memory\cpu_wavedata.vcd"
+[dumpfile_mtime] "Wed Jun 05 15:55:38 2024"
+[dumpfile_size] 41251
+[savefile] "C:\Users\USER\Desktop\Semester_4\CO224 - Computer_Architecture\Labs\Lab6\Part1 - Data_Memory\cpu_out.gtkw"
+[timestart] 18
+[size] 1536 793
+[pos] -87 -87
+*-2.000000 26 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.mycpu.
+[sst_width] 211
+[signals_width] 218
+[sst_expanded] 1
+[sst_vpaned_height] 222
+@28
+cpu_tb.CLK
+cpu_tb.INSTRUCTION[31:0]
+@24
+cpu_tb.PC[31:0]
+cpu_tb.mypc.PC_OUT[31:0]
+@28
+cpu_tb.mycpu.WRITE
+cpu_tb.mycpu.READ
+@200
+-REGISTERS
+@24
+cpu_tb.mycpu.REGITSERS.INADDRESS[2:0]
+cpu_tb.mycpu.REGITSERS.IN[7:0]
+cpu_tb.mycpu.REGITSERS.OUT1ADDRESS[2:0]
+cpu_tb.mycpu.REGITSERS.OUT1[7:0]
+cpu_tb.mycpu.REGITSERS.OUT2ADDRESS[2:0]
+cpu_tb.mycpu.REGITSERS.OUT2[7:0]
+@200
+-ALU
+@24
+cpu_tb.mycpu.ALURESULT[7:0]
+cpu_tb.mycpu.ALU.DATA1[7:0]
+cpu_tb.mycpu.ALU.DATA2[7:0]
+@200
+-DATA MEMORY
+@24
+cpu_tb.memory1.ADDRESS[7:0]
+@28
+cpu_tb.memory1.BUSYWAIT
+cpu_tb.memory1.READ
+@24
+cpu_tb.memory1.READDATA[7:0]
+@28
+cpu_tb.memory1.WRITE
+@25
+cpu_tb.memory1.WRITEDATA[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
